@@ -5,6 +5,11 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
+# add auth
+# add ratelimit
+# add monitoring
+# add analytics
+
 
 class Node(BaseModel):
     id: str
