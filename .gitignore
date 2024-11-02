@@ -10,6 +10,7 @@ node_modules/
 
 # production
 build/
+.git/
 
 # misc
 .DS_Store
